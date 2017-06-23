@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">XV</string>
+    <string name="restart_button">Restart</string>
+    <string name="x_turns">X turns</string>
+    <string name="o_turns">0 turns</string>
+    <string name="x_wins">X wins</string>
+    <string name="o_wins">0 wins</string>
+    <string name="tied">Tied</string>
+</resources>

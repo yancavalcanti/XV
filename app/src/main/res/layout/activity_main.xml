@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yan.xv.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/hash_recycler_view"
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:visibility="visible"
+        />
+
+        <Button
+            android:id="@+id/restart_button"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="@string/restart_button"
+            android:layout_gravity="center"
+            android:onClick="restart_game"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
